@@ -2,116 +2,120 @@
     <string name="app_name">Signal Gear Bay</string>
 
     <!-- shared -->
-    <string name="price">£%1$.2f</string>
-    <string name="price_total">Total: £%1$.2f</string>
-    <string name="back_icon_description">Back</string>
-    <string name="clear_cart_icon_description">Clear cart</string>
+    <string name="price">GBP %1$.2f</string>
+    <string name="price_total">Order: £%1$.2f</string>
+    <string name="back_icon_description">Go back</string>
+    <string name="clear_cart_icon_description">Empty cart</string>
 
     <!-- top bar titles -->
-    <string name="ragde_top_bar_home_title">Home</string>
-    <string name="ragde_top_bar_cart_title">Cart</string>
-    <string name="ragde_top_bar_checkout_title">Checkout</string>
-    <string name="ragde_top_bar_orders_title">Orders</string>
-    <string name="ragde_top_bar_settings_title">Settings</string>
-    <string name="ragde_top_bar_product_details_title">Details</string>
-    <string name="ragde_top_bar_tagline">The best choice</string>
+    <string name="ragde_top_bar_home_title">Equipment</string>
+    <string name="ragde_top_bar_cart_title">Basket</string>
+    <string name="ragde_top_bar_checkout_title">Reserve</string>
+    <string name="ragde_top_bar_orders_title">Reservations</string>
+    <string name="ragde_top_bar_settings_title">About</string>
+    <string name="ragde_top_bar_product_details_title">Product</string>
+    <string name="ragde_top_bar_tagline">Stay connected</string>
 
     <!-- bottom bar navigation item titles -->
-    <string name="ragde_bottom_bar_nav_item_home_title">Home</string>
-    <string name="ragde_bottom_bar_nav_item_cart_title">Cart</string>
-    <string name="ragde_bottom_bar_nav_item_orders_title">Orders</string>
-    <string name="ragde_bottom_bar_nav_item_settings_title">Settings</string>
+    <string name="ragde_bottom_bar_nav_item_home_title">Catalog</string>
+    <string name="ragde_bottom_bar_nav_item_cart_title">Basket</string>
+    <string name="ragde_bottom_bar_nav_item_orders_title">History</string>
+    <string name="ragde_bottom_bar_nav_item_settings_title">About</string>
 
     <!-- splash screen -->
-    <string name="ragde_app_logo_description">App logo</string>
-    <string name="splash_screen_tagline">Everything you need in one place</string>
+    <string name="ragde_app_logo_description">Signal icon</string>
+    <string name="splash_screen_tagline">Network equipment for every connection</string>
 
     <!-- onboarding screen -->
-    <string name="page_discover_title">Discover What You Need</string>
-    <string name="page_discover_description">Browse thousands of products across every category and find exactly what you\'re looking for.</string>
+    <string name="page_discover_title">Find the Right Hardware</string>
+    <string name="page_discover_description">Browse routers, modems, switches, and radios for reliable business connectivity.</string>
 
-    <string name="page_checkout_title">Checkout Made Simple</string>
-    <string name="page_checkout_description">Secure payments and a fast, hassle-free checkout every time you shop.</string>
+    <string name="page_checkout_title">Reserve with Ease</string>
+    <string name="page_checkout_description">Add your equipment, enter your details, and reserve it for store collection.</string>
 
-    <string name="page_delivery_title">Fast, Reliable Delivery</string>
-    <string name="page_delivery_description">Track your order in real time and get updates every step of the way.</string>
+    <string name="page_delivery_title">Ready for Collection</string>
+    <string name="page_delivery_description">View your reservation number and collect your order from the store within 24 hours.</string>
 
-    <string name="next_button_title">Next</string>
-    <string name="start_button_title">Start</string>
-    <string name="skip_button_title">Skip</string>
+    <string name="next_button_title">Continue</string>
+    <string name="start_button_title">Browse</string>
+    <string name="skip_button_title">Later</string>
 
     <!-- %1$s – button label (Next/Start), %2$d and %3$d – current page number and total number of pages. -->
-    <string name="onboarding_button_progress">%1$s · %2$d/%3$d</string>
+    <string name="onboarding_button_progress">%1$s • %2$d of %3$d</string>
 
     <!-- home screen -->
-    <string name="products_state_empty_primary_text">No products available</string>
-    <string name="home_featured_title">Featured</string>
-    <string name="home_categories_title">Categories</string>
-    <string name="home_products_title">Products</string>
-    <string name="home_products_count">%1$d items</string>
-    <string name="add_to_cart_icon_description">Add to cart</string>
+    <string name="products_state_empty_primary_text">No network gear found</string>
+    <string name="home_featured_title">Network Notes</string>
+    <string name="home_categories_title">Equipment Types</string>
+    <string name="home_products_title">Available Gear</string>
+    <string name="home_products_count">%1$d products</string>
+    <string name="add_to_cart_icon_description">Add equipment</string>
 
     <!-- product categories -->
-    <string name="ragde_category_all">All</string>
+    <string name="ragde_category_all">All Gear</string>
+    <string name="product_category_routers_title">Routers</string>
+    <string name="product_category_modems_title">Modems</string>
+    <string name="product_category_network_switches_title">Network Switches</string>
+    <string name="product_category_two_way_radios_title">Two-Way Radios</string>
 
     <!-- product details screen -->
-    <string name="product_details_state_empty_primary_text">No information available for this product</string>
-    <string name="product_image_description">Product image</string>
-    <string name="button_add_to_cart_label">Add to Cart</string>
-    <string name="product_details_description_title">Description</string>
-    <string name="product_details_snackbar_added_to_cart">Added to cart</string>
+    <string name="product_details_state_empty_primary_text">Equipment details are unavailable</string>
+    <string name="product_image_description">Equipment photo</string>
+    <string name="button_add_to_cart_label">Add to Basket</string>
+    <string name="product_details_description_title">Specifications</string>
+    <string name="product_details_snackbar_added_to_cart">Equipment added</string>
 
     <!-- cart screen -->
-    <string name="cart_state_empty_primary_text">Nothing in your cart yet</string>
-    <string name="button_place_order_label">Place Order • £%1$.2f</string>
-    <string name="increase_quantity_icon_description">Increase quantity</string>
-    <string name="decrease_quantity_icon_description">Decrease quantity</string>
-    <string name="delete_item_icon_description">Delete item</string>
-    <string name="cart_items_count">Items: %1$d</string>
-    <string name="cart_item_quantity_multiplier">%1$s × %2$d</string>
-    <string name="cart_summary_subtotal_label">Subtotal</string>
-    <string name="cart_summary_delivery_label">Delivery</string>
-    <string name="cart_summary_delivery_free">Free</string>
-    <string name="cart_summary_total_label">Total</string>
+    <string name="cart_state_empty_primary_text">Your equipment cart is empty</string>
+    <string name="button_place_order_label">Reserve • £%1$.2f</string>
+    <string name="increase_quantity_icon_description">Add one unit</string>
+    <string name="decrease_quantity_icon_description">Remove one unit</string>
+    <string name="delete_item_icon_description">Remove product</string>
+    <string name="cart_items_count">Units: %1$d</string>
+    <string name="cart_item_quantity_multiplier">%1$s · %2$d units</string>
+    <string name="cart_summary_subtotal_label">Equipment</string>
+    <string name="cart_summary_delivery_label">Collection</string>
+    <string name="cart_summary_delivery_free">Included</string>
+    <string name="cart_summary_total_label">Order Total</string>
 
     <!-- orders screen -->
-    <string name="orders_state_empty_primary_text">You have no orders yet</string>
-    <string name="order_number">Order #%1$s</string>
-    <string name="order_customer">Customer: %1$s %2$s</string>
-    <string name="order_customer_email">Email: %1$s</string>
-    <string name="order_date_pattern">dd MMM yyyy, HH:mm</string>
-    <string name="order_status_confirmed">Confirmed</string>
-    <string name="order_total_label">Total</string>
+    <string name="orders_state_empty_primary_text">No equipment reservations yet</string>
+    <string name="order_number">Reservation #%1$s</string>
+    <string name="order_customer">Reserved for: %1$s %2$s</string>
+    <string name="order_customer_email">Contact: %1$s</string>
+    <string name="order_date_pattern">dd MMM yyyy · HH:mm</string>
+    <string name="order_status_confirmed">Ready</string>
+    <string name="order_total_label">Order Value</string>
 
     <!-- checkout screen -->
-    <string name="checkout_headline">Almost there</string>
-    <string name="checkout_invitation">Leave your name and email — we\'ll confirm the order and keep you posted on delivery.</string>
-    <string name="checkout_text_field_first_name">First Name</string>
-    <string name="checkout_text_field_last_name">Last Name</string>
-    <string name="checkout_text_field_email">Email</string>
-    <string name="checkout_email_supporting_text">The order confirmation goes to this address</string>
-    <string name="checkout_email_error_text">Enter a valid email, for example name@example.com</string>
-    <string name="button_confirm_order_label">Confirm Order</string>
+    <string name="checkout_headline">Reserve your gear</string>
+    <string name="checkout_invitation">Enter your name and email — we’ll reserve the equipment for collection for 24 hours.</string>
+    <string name="checkout_text_field_first_name">Given Name</string>
+    <string name="checkout_text_field_last_name">Family Name</string>
+    <string name="checkout_text_field_email">Contact Email</string>
+    <string name="checkout_email_supporting_text">Reservation details go to this address</string>
+    <string name="checkout_email_error_text">Use a valid address, such as name@example.com</string>
+    <string name="button_confirm_order_label">Confirm Reservation</string>
 
     <!-- checkout dialog -->
-    <string name="checkout_dialog_title">Thank You for Your Order!</string>
-    <string name="checkout_success_message">Your order has been successfully placed. Please hold on; our team will contact you shortly.</string>
-    <string name="checkout_dialog_confirm">Done</string>
+    <string name="checkout_dialog_title">Equipment Reserved!</string>
+    <string name="checkout_success_message">Your reservation is confirmed. View its number and details in History; the order will wait at the store for 24 hours.</string>
+    <string name="checkout_dialog_confirm">View Order</string>
 
     <!-- settings screen -->
-    <string name="settings_screen_app_label">Application</string>
-    <string name="settings_screen_version_label">Version</string>
+    <string name="settings_screen_app_label">Store App</string>
+    <string name="settings_screen_version_label">App Version</string>
     <string name="ragde_app_version">1.0.0</string>
 
-    <string name="settings_screen_company_label">Company</string>
+    <string name="settings_screen_company_label">Supplier</string>
     <string name="ragde_company_name">UMZA LTD</string>
 
-    <string name="settings_screen_customer_support_label">Customer Support</string>
+    <string name="settings_screen_customer_support_label">Equipment Support</string>
     <string name="ragde_customer_support_link">https://wholesale-telecom-parts.top</string>
 
     <!-- clear cart dialog -->
-    <string name="clear_cart_dialog_title">Clear cart?</string>
-    <string name="clear_card_dialog_text">Are you sure you want to remove all items from your cart?</string>
-    <string name="button_confirm_clear_cart">Confirm</string>
-    <string name="button_cancel_clear_cart">Cancel</string>
+    <string name="clear_cart_dialog_title">Empty equipment cart?</string>
+    <string name="clear_card_dialog_text">Remove every reserved item from your equipment cart?</string>
+    <string name="button_confirm_clear_cart">Empty Cart</string>
+    <string name="button_cancel_clear_cart">Keep Items</string>
 </resources>
